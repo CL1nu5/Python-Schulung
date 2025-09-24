@@ -6,28 +6,28 @@ def reload_module():
     return aufgaben
 
 
-def test_aufgabe1():
+def test_teil_aufgabe1():
     mod = reload_module()
     assert isinstance(mod.name, str), "Die Variable 'name' muss ein String sein."
 
 
-def test_aufgabe2():
+def test_teil_aufgabe2():
     mod = reload_module()
     assert isinstance(mod.alter, (int, float)), "Die Variable 'alter' muss eine Zahl sein."
 
 
-def test_aufgabe3():
+def test_teil_aufgabe3():
     mod = reload_module()
     assert mod.summe == 42, "Die Summe von 15 + 27 muss 42 ergeben."
 
 
-def test_aufgabe4():
+def test_teil_aufgabe4():
     mod = reload_module()
     assert isinstance(mod.pi, float), "Die Variable 'pi' muss ein Float sein."
     assert abs(mod.pi - 3.14159) < 0.00001, "Die Variable 'pi' muss 3.14159 enthalten."
 
 
-def test_aufgabe5():
+def test_teil_aufgabe5():
     mod = reload_module()
     assert isinstance(mod.begrueßung, str), "Die Begrüßung muss ein String sein."
     assert mod.name in mod.begrueßung, "Die Begrüßung muss den Namen enthalten."
