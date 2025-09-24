@@ -30,23 +30,23 @@ Anfangs sollten alle Tests ersteinmal fehlschlagen. Für jede Aufgabe die erfolg
 
 1. Estelle eine neue run Konfiguration
 
-![run_config](image\run_configs_1.png)
+![run_config](image/run_configs_1.png)
 
 2. Klicke auf das "+" und wähle pytest aus
 
-![run_config](image\run_configs_2.png)
+![run_config](image/run_configs_2.png)
 
 3. Clicke auf den Filedialog um den Testordner auszuwählen
 
-![run_config](image\run_configs_3.png)
+![run_config](image/run_configs_3.png)
 
 4. Wähle den Testordner ("test") des Repositorys aus und clicke auf "Selct Folder"
 
-![run_config](image\run_configs_4.png)
+![run_config](image/run_configs_4.png)
 
 5. Führe die Tests aus
 
-![run_config](image\run_configs_5.png)
+![run_config](image/run_configs_5.png)
 
 
 
